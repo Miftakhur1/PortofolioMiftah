@@ -52,7 +52,11 @@ function App() {
         </p>
 
         <div className='flex flex-col sm:flex-row items-center gap-4 justify-center md:justify-start'>
-          <a href="/src/assets/staff.pdf" download className='w-full sm:w-auto bg-green-600 px-8 py-4 rounded-2xl font-bold hover:bg-green-500 transition-all'>
+          <a
+            href="/assets/Staff.pdf"
+            download="CV-Miftakhur-Rahman.pdf"
+            className='w-full sm:w-auto bg-green-600 px-8 py-4 rounded-2xl font-bold hover:bg-green-500 transition-all'
+          >
             Download CV
           </a>
           <a href="#project" className='w-full sm:w-auto bg-zinc-800 px-8 py-4 border border-zinc-700 rounded-2xl font-bold hover:bg-zinc-700 transition-all'>
